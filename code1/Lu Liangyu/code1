@@ -7,7 +7,7 @@ public class study1 {
 		this.num = num;
 	}
 	
-	private void Delete_e_n(ArrayList<Integer> num) {
+	public void Delete_e_n(ArrayList<Integer> num) {
 		Iterator<Integer> iter = num.iterator();
 		while(iter.hasNext()){
 			Integer c = iter.next();
@@ -18,7 +18,7 @@ public class study1 {
 		}
 	}
 	
-	private void Display(ArrayList<Integer> num) {
+	public void Display(ArrayList<Integer> num) {
 		Iterator<Integer> iter = num.iterator();
 		for(Integer c : num)
 		{
